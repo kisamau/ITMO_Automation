@@ -5,7 +5,7 @@ b = 4.12
 c = 'mind'
 d = [1,2,3]
 e = 2>1
-print(a,type(a),b,type(b),c,type(c),d,type(d),e,type(e))
+print(type(a),type(b),type(c),type(d),type(e))
 
 
 def task_2(a=[1,2,3,5,8,13,21]) -> int:
