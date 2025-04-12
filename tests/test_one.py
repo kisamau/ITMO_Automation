@@ -18,3 +18,5 @@ def test_list():
     # assert not x == y
     # или
     assert x != y
+
+    #12:56
