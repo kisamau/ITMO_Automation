@@ -43,3 +43,9 @@ print(positive_numb)
 
 # задание под номером 7 так и не удалось решить
 # хочется понять, как будет правильно
+
+months = 8
+years = 2
+d_in_months = months * 29
+d_in_years = years * d_in_months
+print(d_in_months,d_in_years)
