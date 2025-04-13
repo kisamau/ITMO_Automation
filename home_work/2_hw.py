@@ -1,11 +1,6 @@
-def task_1(a,b,c,d,e) -> str:
-    return str(a,b,c,d,e)
-a = 3
-b = 4.12
-c = 'mind'
-d = [1,2,3]
-e = 2>1
-print(type(a),type(b),type(c),type(d),type(e))
+def task_1(a: int,b: float,c: str,d: list,e: bool):
+    return type(a),type(b),type(c),type(d),type(e)
+print(task_1(2, 45.1, 'sukuna',[5,6,7], 4>1))
 
 
 def task_2(a=[1,2,3,5,8,13,21]) -> int:
