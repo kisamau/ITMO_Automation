@@ -1,13 +1,13 @@
-q = 19
-w = 3
-print(max(q,w))
+def mark_func(q = 4, w = 127):
+    return max(q,w)
+print(mark_func())
 
-a = 257
-b = 122
-if a - b == 135:
-    print('yes')
-else:
-    print('no')
+def condition_func(a,b):
+    if a - b == 135:
+        print('yes')
+    else:
+        print('no')
+condition_func(201,66)
 
 
 def task_month(my_month):
@@ -24,28 +24,28 @@ def task_month(my_month):
 task_month(6)
 
 
-x = 9
-y = 15
-z = 13
-if x > 10 and y > 10 and z > 10:
-    print('yes')
-else:
-    print('no')
+def mark_2_func(x,y,z):
+    if x > 10 and y > 10 and z > 10:
+        print('yes')
+    else:
+        print('no')
+mark_2_func(9,15,13)
 
 
-kremnos = [8,-100,19,0,-2]
-positive_numb = 0
-for num in kremnos:
-    if num > 0:
-        positive_numb +=1
-print(positive_numb)
+def amorfeus_func(kremnos = [8,-100,19,0,-2]):
+    positive_numb = 0
+    for num in kremnos:
+        if num > 0:
+            positive_numb +=1
+    print(positive_numb)
 
 
 # задание под номером 7 так и не удалось решить
 # хочется понять, как будет правильно
-
-months = 8
-years = 2
-d_in_months = months * 29
-d_in_years = years * d_in_months
-print(d_in_months,d_in_years)
+def calculate_days(months,years):
+    d_in_months = months * 29
+    d_in_years = years * 348
+    d_total = d_in_months + d_in_years
+    return d_total
+days = calculate_days(8,2)
+print(days)
