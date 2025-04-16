@@ -24,5 +24,3 @@ class Button_Two:
 home_two = Button_Two('домой','/home','button#home')
 # вызываем метод
 print(home_two.click())
-
-
