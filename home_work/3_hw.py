@@ -3,11 +3,12 @@ def mark_func(q = 4, w = 127):
 print(mark_func())
 
 def condition_func(a,b):
-    if a - b == 135:
+    if a - b == 135 or a - b == -135:
         print('yes')
     else:
         print('no')
 condition_func(201,66)
+condition_func(200,335)
 
 
 def task_month(my_month):
